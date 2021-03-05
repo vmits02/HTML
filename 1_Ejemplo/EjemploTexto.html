@@ -12,21 +12,13 @@
   <link rel="alternate" type="application/rss+xml" title="Resumen de todos los artículos del blog" href="/feed.xml" />
 
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="description" content="Ejemplo de XHTML y HTML5"/>
-  <meta name="keywords" content="HTML5, HTML, XHTML"/>
+  <meta name="description" content="Ejemplo de HTML5"/>
+  <meta name="keywords" content="HTML5, HTML"/>
   <meta name="author" content="Dannas"/>
-  <!-- OpenGraph-->
   <meta property="og:title" content="Estructura de texto"/>
   <meta property="og:description" 
   content="Ejemplo HTML5">
   <meta property="og:author" content="Daniel J."/>
-
-  <script type="text/javascript">
-    //<![CDATA[
-      window.onload = function() { alert("La página se ha cargado exitosamente :)"); }
-    //]]>
-  </script>
-</head>
 
 <body>
 <noscript>
@@ -41,7 +33,12 @@ Si lo has deshabilitado intencionadamente, por favor vuelve a activarlo :)</p>
     <li><a href="mailto:nombre@direccion.com?subject=Solicitud de más información">Solicitar Información</a></li>
   </ul>
 <hr/>
+<h1>Lenguajes de marcado.</h1>
 <h2>Lenguajes de marcado.</h2>
+<h3>Lenguajes de marcado.</h3>
+<h4>Lenguajes de marcado.</h4>
+<h5>Lenguajes de marcado.</h5>
+<h6>Lenguajes de marcado.</h6>
 <dl>
   <dt>SGML</dt>
   <dd>Metalenguaje para la definición de otros lenguajes de marcado</dd>
@@ -50,7 +47,12 @@ Si lo has deshabilitado intencionadamente, por favor vuelve a activarlo :)</p>
   <dd>Lenguaje basado en SGML y que se emplea para describir datos</dd>
  
   <dt>RSS</dt>
+
 <!-- Definición de los acronimos -->
+=======
+  <dd>Lorem Ipsum</dd>
+
+>>>>>>> 4e588b1e2d678d2a07c53bef61c7b8674599a357
   <dt>GML</dt>
 
   <dt>XHTML</dt>
@@ -65,7 +67,16 @@ Si lo has deshabilitado intencionadamente, por favor vuelve a activarlo :)</p>
 
 <h2>HTML</h2>
 
-<p>El lenguaje <acronym title="HyperText Markup Language"><strong><em>HTML</em></strong></acronym> es estandarizado 
+<p>El lenguaje <acronym title="HyperText Markup Language">
+                  <!--<b> Bold </b>-->
+                  <strong>
+                      <!--<i> Itálica </i>-->
+                      <em>
+                        HTML
+                      </em>
+                  </strong>
+                </acronym>
+                 es estandarizado 
 por el <acronym title="World Wide Web Consortium"><strong><em>W3C</em></strong></acronym>.</p>
 
 <h3>HTML 5</h3>
@@ -78,7 +89,7 @@ por el <acronym title="World Wide Web Consortium"><strong><em>W3C</em></strong><
 <thead>
 <tr>
 	<th>Entidad</th>
-	<th>Carácter</th>
+	<th>Car&aacute;cter</th>
 	<th>Descripción</th>
 </tr>
 </thead>
@@ -168,7 +179,7 @@ El éxito de las .com dependía de webs más dinámicas (a veces llamadas Web 1.
 <img src="imagen.gif" usemap="#mapa_zonas" /> 
 <map name="mapa_zonas">
   <area shape="rect" coords="20,25,84,113" href="#" />
-  <area shape="polygon" coords="90,25,162,26,163,96,89,25,90,24" href="#" />
+  <area shape="poly" coords="90,25,162,26,163,96,89,25,90,24" href="#" />
   <area shape="circle" coords="130,114,29" href="#" />
   <area shape="rect" coords="19,156,170,211" href="#" />
   <area shape="default" nohref="nohref" />
